@@ -21,7 +21,7 @@
   "scripts": {
     "dev": "nodemon server.mjs",
     "build": "echo 'No build step required'",
-    "start": "node server.mjs"
+    "start": "node src/server.mjs"
   },
   "engines": {
     "node": "20.12.2",
