@@ -19,9 +19,9 @@
   "homepage": "https://github.com/godwins3/jasiri-backend",
   "main": "./dist/server.bundle.js",
   "scripts": {
-    "dev": "nodemon",
-    "build": "webpack --mode=production --config webpack.config.js",
-    "start": "server.mjs"
+    "dev": "nodemon server.mjs",
+    "build": "echo 'No build step required'",
+    "start": "node server.mjs"
   },
   "engines": {
     "node": "20.12.2",
