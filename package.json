@@ -1,69 +1,69 @@
 {
-    "name": "jasiri-social",
-    "version": "2.0.0",
-    "description": "Jasiri social backend",
-    "author": "Praise Godwins",
-    "license": "MIT",
-    "type": "module",
-    "keywords": [
-        "react",
-        "express",
-        "mongodb",
-        "node",
-        "jasiri"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/godwins3/jasiri-backend"
-    },
-    "homepage": "https://github.com/godwins3/jasiri-backend",
-    "main": "./dist/server.bundle.js",
-    "scripts": {
-        "dev": "nodemon",
-        "build": "webpack --mode=production --config webpack.config.js",
-        "start": "cross-env NODE_ENV=production node ./dist/server.bundle.js"
-    },
-    "engines": {
-        "node": "20.12.2",
-        "npm": "10.5.2"
-    },
-    "devDependencies": {
-        "@babel/core": "^7.26.0",
-        "@babel/preset-env": "^7.26.0",
-        "babel-loader": "^9.2.1",
-        "cross-env": "^7.0.3",
-        "file-loader": "6.0.0",
-        "nodemon": "^3.1.7",
-        "webpack": "^5.96.1",
-        "webpack-cli": "^5.1.4",
-        "webpack-dev-middleware": "^5.3.4",
-        "webpack-hot-middleware": "^2.26.1",
-        "webpack-node-externals": "1.7.2"
-    },
-    "dependencies": {
-        "assert": "^2.1.0",
-        "body-parser": "^1.20.3",
-        "browserify-zlib": "^0.2.0",
-        "buffer": "^6.0.3",
-        "compression": "1.7.4",
-        "cookie-parser": "^1.4.7",
-        "cors": "2.8.5",
-        "crypto-browserify": "^3.12.1",
-        "dotenv": "^16.4.5",
-        "express": "^4.21.1",
-        "express-jwt": "^8.4.1",
-        "formidable": "1.2.2",
-        "helmet": "3.22.0",
-        "jsonwebtoken": "^9.0.2",
-        "lodash": "^4.17.21",
-        "mongoose": "^8.8.2",
-        "net-browserify": "^0.1.4",
-        "os-browserify": "^0.3.0",
-        "path": "^0.12.7",
-        "path-browserify": "^1.0.1",
-        "stream-browserify": "^3.0.0",
-        "stream-http": "^3.2.0",
-        "url": "^0.11.4",
-        "vm-browserify": "^1.1.2"
-    }
+  "name": "jasiri-social",
+  "version": "2.0.0",
+  "description": "Jasiri social backend",
+  "author": "Praise Godwins",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "react",
+    "express",
+    "mongodb",
+    "node",
+    "jasiri"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/godwins3/jasiri-backend"
+  },
+  "homepage": "https://github.com/godwins3/jasiri-backend",
+  "main": "./dist/server.bundle.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "webpack --mode=production --config webpack.config.js",
+    "start": "server.mjs"
+  },
+  "engines": {
+    "node": "20.12.2",
+    "npm": "10.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "cross-env": "^7.0.3",
+    "file-loader": "6.0.0",
+    "nodemon": "^3.1.7",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-middleware": "^5.3.4",
+    "webpack-hot-middleware": "^2.26.1",
+    "webpack-node-externals": "1.7.2"
+  },
+  "dependencies": {
+    "assert": "^2.1.0",
+    "body-parser": "^1.20.3",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "compression": "1.7.4",
+    "cookie-parser": "^1.4.7",
+    "cors": "2.8.5",
+    "crypto-browserify": "^3.12.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-jwt": "^8.4.1",
+    "formidable": "1.2.2",
+    "helmet": "3.22.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.8.2",
+    "net-browserify": "^0.1.4",
+    "os-browserify": "^0.3.0",
+    "path": "^0.12.7",
+    "path-browserify": "^1.0.1",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.4",
+    "vm-browserify": "^1.1.2"
+  }
 }
